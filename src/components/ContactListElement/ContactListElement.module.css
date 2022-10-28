@@ -1,0 +1,37 @@
+.list_item {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.list_name {
+font-size: 20px;
+font-weight: 600;
+}
+.list_number {
+font-size: 20px;
+font-weight: 700;
+margin-right: 20px;
+}
+.list_btn {
+font-family: inherit;
+font-size: 18px;
+font-weight: 600;
+padding-top: 2px;
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom: 2px;
+color:  rgb(120, 0, 0);
+background-color: rgb(234, 234, 234);
+border: none;
+border-radius: 4px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+cursor: pointer;
+}
+.list_btn:focus,
+.list_btn:hover {
+background-color: rgb(120, 0, 0);
+color: rgb(234, 234, 234);  
+}
+.icon {
+color: rgb(72, 4, 57);
+}
